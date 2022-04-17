@@ -1,0 +1,14 @@
+{
+  "@context" : {
+    "hasParent" : {
+      "@id" : "http://www.semanticweb.org/migue/ontologies/2022/3/untitled-ontology-13#hasParent",
+      "@type" : "@id"
+    },
+    "Parent" : {
+      "@id" : "http://www.semanticweb.org/migue/ontologies/2022/3/untitled-ontology-13#Parent"
+    },
+    "Person" : {
+      "@id" : "http://www.semanticweb.org/migue/ontologies/2022/3/untitled-ontology-13#Person"
+    }
+  }
+}
