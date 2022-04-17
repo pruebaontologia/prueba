@@ -1,0 +1,40 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/migue/ontologies/2022/3/untitled-ontology-13#Person"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/migue/ontologies/2022/3/untitled-ontology-13#hasParent"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/migue/ontologies/2022/3/untitled-ontology-13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/migue/ontologies/2022/3/untitled-ontology-13#Abuelo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/migue/ontologies/2022/3/untitled-ontology-13#Parent"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/migue/ontologies/2022/3/untitled-ontology-13#Padre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/migue/ontologies/2022/3/untitled-ontology-13#hasParent" : [ {
+    "@id" : "http://www.semanticweb.org/migue/ontologies/2022/3/untitled-ontology-13#Abuelo"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/migue/ontologies/2022/3/untitled-ontology-13#Parent"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/migue/ontologies/2022/3/untitled-ontology-13#Parent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/migue/ontologies/2022/3/untitled-ontology-13#Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/migue/ontologies/2022/3/untitled-ontology-13#hasParent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+} ]
